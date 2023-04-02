@@ -13,6 +13,15 @@ vim.keymap.set("n", "<leader>vR", ":vert res -5<CR>")
 vim.keymap.set("n", "<leader>c", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
+vim.keymap.set("n", "<leader>gs", ":Gstatus<CR>")
+vim.keymap.set("n", "<leader>gc", ":Gcommit<CR>")
+vim.keymap.set("n", "<leader>gd", ":Gdiffsplit<CR>")
+vim.keymap.set("n", "<leader>gdd", ":Gvdiffsplit!<CR>")
+vim.keymap.set("n", "<leader>gp", ":GitGutterPreviewHunk<CR>")
+vim.keymap.set("n", "<leader>gf", ":GitGutterFold<CR>")
+vim.keymap.set("n", "<leader>gy", ":GitGutterStageHunk<CR>")
+vim.keymap.set("n", "<leader>gu", ":GitGutterUndoHunk<CR>")
+
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
