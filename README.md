@@ -1,5 +1,18 @@
 # Ákos's developer environment
 
+## Packer
+
+```
+https://github.com/wbthomason/packer.nvim
+```
+
+## Fonts
+
+Caskaydia Cove NF Regular
+```
+https://www.nerdfonts.com/font-downloads
+```
+
 ## Prerequisites
 
 ### Arch
