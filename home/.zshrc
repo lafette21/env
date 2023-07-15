@@ -2,7 +2,7 @@ source "${HOME}/env/load.zsh"
 
 alias btop="bpytop"
 alias python="python3"
-alias vim="nvim"
+alias nv="nvim"
 
 bindkey -e
 bindkey -s '^o' 'lfcd\n'
