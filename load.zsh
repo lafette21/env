@@ -15,5 +15,6 @@ else
 fi
 
 source ~/env/cfg/zsh/aliases.zsh
-source ~/env/cfg/zsh/variables.zsh
+source ~/env/cfg/zsh/custom.zsh
 source ~/env/cfg/zsh/functions.zsh
+source ~/env/cfg/zsh/variables.zsh

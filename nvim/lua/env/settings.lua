@@ -17,7 +17,7 @@ vim.opt.cursorline = true
 vim.opt.listchars = "trail:·,tab:»·"
 vim.opt.list = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
@@ -28,7 +28,6 @@ vim.opt.ignorecase = true
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
-vim.g.edge_style = 'aura'
 vim.g.airline_theme = 'onedark'
-vim.g.airline_powerline_fonts=1
+vim.g.airline_powerline_fonts = 1
 vim.g.NERDSpaceDelims = 1
