@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>n", ":NERDTreeToggle<CR>")
+vim.keymap.set("n", "<leader>nt", ":NERDTreeToggle<CR>")
 vim.keymap.set("n", "<leader>m", ":TagbarToggle<CR>")
 vim.keymap.set("n", "<leader>no", ":nohlsearch<CR>")
 

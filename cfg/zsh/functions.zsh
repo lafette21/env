@@ -6,6 +6,16 @@ function disas() {
     objdump -D -M intel "$1" | bat --language asm --paging=never
 }
 
+function lfcd() {
+    tmp="$(mktemp)"
+    lf -last-dir-path="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        dir="$(cat "$tmp")"
+	rm -f "$tmp"
+	[ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+    fi
+}
+
 function godbolt() {
     local SOURCE_FILE="$1"
     shift

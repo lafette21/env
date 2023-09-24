@@ -1,4 +1,4 @@
-require("env.autocmd")
-require("env.remaps")
-require("env.plugins")
-require("env.settings")
+require('env.autocmd')
+require('env.remaps')
+require('env.plugins')
+require('env.settings')
