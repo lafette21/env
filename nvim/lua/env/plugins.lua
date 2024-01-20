@@ -6,7 +6,7 @@ return require('packer').startup(function(use)
     use { 'nvim-lualine/lualine.nvim' }
     use { 'rebelot/kanagawa.nvim' }
 
-    use { 'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    use { 'nvim-telescope/telescope.nvim', tag = '0.1.4',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
