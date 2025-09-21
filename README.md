@@ -1,11 +1,5 @@
 # Ákos's developer environment
 
-## Packer
-
-```
-https://github.com/wbthomason/packer.nvim
-```
-
 ## Fonts
 
 Caskaydia Cove NF Regular
