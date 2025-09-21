@@ -11,3 +11,11 @@ vim.api.nvim_create_autocmd({"BufWritePre"}, {
        vim.call('winrestview', line)
    end
 })
+
+vim.api.nvim_create_autocmd({"BufReadPre"}, {
+   group = EnvGroup,
+   pattern = "*.go",
+   callback = function()
+       vim.opt.expandtab = false
+   end
+})

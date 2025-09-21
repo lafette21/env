@@ -56,3 +56,9 @@ function random-string() {
         cat /dev/urandom | base64 | tr -dc "${PATTERN:="0-9a-zA-Z"}" | head -c${LENGTH}
     fi
 }
+
+function calc() {
+    local EXPRESSION="$1"
+
+    echo "scale=4;${EXPRESSION}" | bc
+}
